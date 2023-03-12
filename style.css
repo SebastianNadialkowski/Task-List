@@ -42,6 +42,7 @@ html {
 .container__form {
     margin-bottom: 20px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -68,14 +69,20 @@ html {
     color: white;
     background-color: teal;
     margin-left: 5px;
+    height:25px;
 }
 
 .form__input {
     border: solid 1px hsl(0, 0%, 80%);
-    display: inline-block;
+    width: 80%;
+    height: 25px;
+
+}
+
+@media screen and (max-width: 600px) {
+}.form__input {width: 80%;
 }
 
 .list__item {
-
-    text-decoration: line-through;
+text-decoration: line-through;
 }
