@@ -9,11 +9,24 @@
     <script defer src="script.js"></script>
     <title>Task List</title>
 </head>
-<body>
-    <form class="js-form">
-        <input class="js-newTask">
-        <button>Dodaj zadanie</button>
-    </form>
-    <ul class="js-tasks"></ul>
+<body class="body">
+    <div class="body__title">Lista zadań</div>
+<div class="container">
+        <div class="container__content">
+            <div class="container__title">
+                Dodaj nowe zadanie
+            </div>
+            <form class="js-form container__form">
+                <input class="js-newTask form__input" placeholder="Co jest do zrobienia?">
+                <button class="container__button">Dodaj zadanie</button>
+            </form>
+        </div>
+    
+        <div class="container__content">
+        <div class="container__title">Lista zadań</div>
+        <ul class="js-tasks"></ul>
+        </div>
+    
+</div>
 </body>
 </html>
