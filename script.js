@@ -6,7 +6,11 @@
     },
     {
       content: "napisac liste zadań",
-      done: true,
+      done: true, 
+    },
+    {
+      content: "wrzucić na gita",
+      done: true, 
     },
   ];
 
