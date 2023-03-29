@@ -1,0 +1,47 @@
+.section__list {
+    list-style-type: none;
+    margin: 30px 15px 15px 15px;
+    padding: 0;
+}
+
+
+.section__list__item {
+    border-bottom: solid 2px #ededed;
+    margin: 12px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+}
+
+.section__list__item--done {
+    text-decoration: line-through;
+}
+
+.list__item {
+    flex-basis: 75vh;
+    padding-left: 5px;
+    margin-top: 3px;
+    flex-grow: 1;
+}
+
+.button__done {
+    background-color: hsl(120, 73%, 26%);
+    border: none;
+    width: 30px;
+    height: 25px;
+    color: white;
+}
+
+.button__remove {
+    background-color: rgb(231, 25, 25);
+    border: none;
+    width: 32px;
+    height: 25px;
+    color: white;
+}
+
+.button__done:hover {
+    background-color: hsl(120, 73%, 33%);
+    border: solid 1px black;
+    border-radius: 3px;
+    cursor: pointer;
+}

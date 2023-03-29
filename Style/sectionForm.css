@@ -1,0 +1,27 @@
+.section__form {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section__form__button {
+    border: none;
+    color: white;
+    background-color: teal;
+    margin: 5px 2px 0px 12px;
+    height: 35px;
+    width: 75px;
+    flex-grow: 1;
+    font-size: 15px;
+}
+
+.section__form__input {
+    border: solid 1px hsl(0, 0%, 80%);
+    flex-basis: 80%;
+    flex-grow: 1;
+    margin: 5px;
+    padding: 10px;
+    height: 35px;
+    font-size: small;
+}

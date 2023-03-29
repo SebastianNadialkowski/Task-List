@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    background: #ededed;
+    font-family: "Lato", sans-serif;
+    word-break: break-word;
+}
+
+.container {
+    max-width: 1000px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    margin-bottom: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.section__title {
+    font-size: 20px;
+    padding: 18px;
+    margin: 0px;
+    border-bottom: solid 2px #ededed;
+}
