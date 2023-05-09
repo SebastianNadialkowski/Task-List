@@ -1,27 +1,32 @@
 .section__form {
-    padding: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+}
+
+@media (max-width: 767px) {
+.section__form {
+    grid-template-columns: 1fr;
+}
 }
 
 .section__form__button {
+    padding: 10px;
     border: none;
     color: white;
-    background-color: teal;
-    margin: 5px 2px 0px 12px;
-    height: 35px;
-    width: 75px;
-    flex-grow: 1;
-    font-size: 15px;
+    background-color: hsl(180, 100%, 25%);
+}
+
+.section__form__button:hover {
+    background-color: hsl(180, 100%, 30%);
+}
+
+.section__form__button:active {
+    background-color: hsl(180, 100%, 35%);
 }
 
 .section__form__input {
-    border: solid 1px hsl(0, 0%, 80%);
-    flex-basis: 80%;
-    flex-grow: 1;
-    margin: 5px;
-    padding: 10px;
-    height: 35px;
-    font-size: small;
+    border: solid 1px #cccccc;
+    padding: 10px;  
 }
